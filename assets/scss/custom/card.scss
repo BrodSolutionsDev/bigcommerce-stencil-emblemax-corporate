@@ -1,0 +1,27 @@
+.card-sale-flag {
+  position: absolute;
+  z-index: 1;
+  background: stencilColor("color-primary");
+  color: stencilColor("color-white");
+  padding: 5px 10px;
+}
+
+.price-now-label,
+.price-section > span:first-of-type {
+  display: none;
+}
+
+.price--non-sale {
+  color: stencilColor("color-primary");
+}
+
+.card-text {
+  display: flex;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+  .card-body {
+    text-align: left;
+  }
+}
