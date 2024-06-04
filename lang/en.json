@@ -62,7 +62,7 @@
             "update": "Update shipping cost"
         },
         "preview": {
-            "checkout_now": "Check out now",
+            "checkout_now": "Check out",
             "checkout_multiple": "or check out with multiple addresses",
             "view_cart": "View Cart"
         },
@@ -734,6 +734,7 @@
         "reviews": {
             "hide": "Hide Reviews",
             "new": "Write a Review",
+            "first": "Be the first to review",
             "show": "Show Reviews",
             "header": "{total, plural, =0{0 Reviews} one {# Review} other {# Reviews}}",
             "link_to_review": "({total, plural, =0{No reviews yet} one {# review} other {# reviews}})",
