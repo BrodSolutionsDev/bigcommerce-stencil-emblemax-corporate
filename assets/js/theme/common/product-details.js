@@ -474,7 +474,7 @@ export default class ProductDetails extends ProductDetailsBase {
      */
     getCartContent(cartItemId, onComplete) {
         const options = {
-            template: 'cart/preview',
+            template: 'custom/cart/preview',
             params: {
                 suggest: cartItemId,
             },
