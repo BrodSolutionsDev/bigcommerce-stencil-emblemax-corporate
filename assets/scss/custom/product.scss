@@ -1,0 +1,95 @@
+.productView-title {
+  font-weight: bold;
+}
+
+.productView-thumbnail-link {
+  border: none;
+}
+
+.productView-price {
+  display: flex;
+  gap: 10px;
+}
+
+.qtyCartBtn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  max-width: unset;
+
+  .form-field--increments {
+    margin-bottom: 0;
+
+    .form-label {
+      display: none;
+    }
+  }
+
+  .form-increment {
+    .button {
+      font-size: 14px;
+      padding: 0.85714rem;
+      font-size: 20px;
+
+      i {
+        text-transform: none;
+      }
+    }
+
+    .form-input {
+      border: none;
+      width: 100%;
+      padding: 0.85714rem;
+      font-size: 14px;
+      max-width: 50px;
+      border-radius: 0;
+    }
+  }
+}
+
+.productView-reviewLink--first {
+  margin-left: 0;
+}
+
+.add-to-cart-buttons {
+  margin-bottom: 0 !important;
+}
+
+.productView-info {
+  &-name {
+    clear: both !important;
+    float: left !important;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 0 !important;
+  }
+
+  &-value {
+    float: left !important;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+}
+
+.productView-options {
+  text-align: left;
+}
+
+@media only screen and (max-width: 550px) {
+  .form-field--increments {
+    width: 250px !important;
+    max-width: unset !important;
+  }
+}
+
+@media only screen and (min-width: 551px) {
+  .productView-rating {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1261px) {
+  .add-to-cart-buttons {
+    margin-top: 0 !important;
+  }
+}

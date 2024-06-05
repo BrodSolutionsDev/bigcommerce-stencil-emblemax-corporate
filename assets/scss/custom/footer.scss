@@ -1,0 +1,30 @@
+.footer-info {
+  &::before {
+    display: none !important;
+  }
+
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 9999px));
+  gap: 20px;
+
+  .footer-info-col {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-info-col {
+    text-align: left;
+  }
+
+  .footer-info-list li {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .footer-info {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
